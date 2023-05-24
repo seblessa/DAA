@@ -1,0 +1,2 @@
+public class DAA042 {
+}
