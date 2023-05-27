@@ -1,7 +1,3 @@
-// Exemplo de pesquisa em profundidade (DFS) num grafo nao dirigido
-
-import java.util.*;
-
 public class DFS {
     static int n;              // Numero de nos do grafo
     static boolean[][] adj;    // Matriz de adjacencias
@@ -14,7 +10,7 @@ public class DFS {
 			if (adj[v][i] && !visited[i])
 				dfs(i);
     }
-    
+
     public static void main(String[] args) {
 		Scanner stdin = new Scanner(System.in);
 
